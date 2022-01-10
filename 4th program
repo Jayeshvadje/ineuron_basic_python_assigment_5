@@ -1,0 +1,7 @@
+#Python Program To Find ASCII value of a character
+
+#take a input from user
+a=str(input("enter the character you want to convert\n"))
+
+#print the ascii value of the character
+print(f"ascii value of {a} is =", ord(a))
