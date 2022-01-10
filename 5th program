@@ -1,0 +1,50 @@
+#Python Program to Make a Simple Calculator with 4 basic mathematical operations
+
+#making a function for addition
+def add(a,b):
+    """function use for addition"""
+    sum=a+b
+    return sum
+
+#making a function for substaction
+def sub(a,b):
+    """function use for substraction"""
+    sub=a-b
+    return sub
+
+#making a function for multiplication
+def mul(a,b):
+    """making a function for multiplication"""
+    mul=a*b
+    return mul
+
+#making a function for addition
+def div(a,b):
+    """making a function for division"""
+    div=a/b
+    return div
+
+#take a choice from user
+choice=input("enter your choice \n 1 = add\n 2 = sub\n 3 = mul\n 4 = div")
+
+#take a input from user
+a=int(input("enter the first number \n"))
+b=int(input("enter the second number \n"))
+
+if choice == '1':
+    print(f"addition of {a} and {b} = ",add(a,b))
+elif choice == '2':
+    print(f"substaction of {a} and {b} = ", sub(a, b))
+elif choice == '3':
+        print(f"multiplication of {a} and {b} = ", mul(a, b))
+elif choice == '4':
+    print(f"div of {a} and {b} = ", div(a, b))
+
+
+
+
+
+
+
+
+
