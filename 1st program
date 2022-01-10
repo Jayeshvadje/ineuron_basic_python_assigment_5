@@ -1,0 +1,21 @@
+# Python Program to Find LCM
+
+#defining a function to calculate lmc
+def cal_lmc(x,y):
+    """function to calculate the greater number for lcm"""
+    #selecting greater number
+    if x>y:
+       greater = x
+    else:
+        greater = y
+    while(True):
+        if((greater % x==0) and (greater % y==0)):
+            lcm = greater
+            break
+        greater += 1
+    return lcm
+# take input from the user
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+#print the lcm
+print(f"the lcm of {a} and {b} is ",cal_lmc(a,b))
