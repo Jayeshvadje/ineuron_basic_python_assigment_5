@@ -1,0 +1,9 @@
+#Python Program to Convert Decimal to Binary, Octal and Hexadecimal
+
+#take a input from user
+a=int(input("enter the number you want to convert\n"))
+
+#change the number into binary octal hexadecimal
+print(f"the binary of {a} is ", bin(a))
+print(f"the octal of {a} is ", oct(a))
+print(f"the hexadecimal of {a} is ", hex(a))
